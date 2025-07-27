@@ -1,0 +1,124 @@
+$date
+	Thu Jan 25 19:46:07 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 64 ! m_valM [63:0] $end
+$var wire 1 " dmem_err $end
+$var reg 64 # Add [63:0] $end
+$var reg 64 $ M_valA [63:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rEn $end
+$var reg 1 ' test $end
+$var reg 1 ( wEn $end
+$scope module M1 $end
+$var wire 64 ) Add [63:0] $end
+$var wire 64 * M_valA [63:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rEn $end
+$var wire 1 ( wEn $end
+$var reg 1 " dmem_err $end
+$var reg 64 + m_valM [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+b101111010001 *
+b1100101 )
+1(
+x'
+0&
+0%
+b101111010001 $
+b1100101 #
+0"
+bx !
+$end
+#5000
+1%
+#10000
+b0xxxxxxxx !
+b0xxxxxxxx +
+1"
+0%
+b1011110011101 $
+b1011110011101 *
+b11001001 #
+b11001001 )
+0(
+#15000
+1%
+#20000
+0"
+b101111010001 !
+b101111010001 +
+0%
+b111110111001 $
+b111110111001 *
+b1100101 #
+b1100101 )
+1&
+#25000
+1%
+#30000
+bx !
+bx +
+0%
+b1011110011101 $
+b1011110011101 *
+b11001001 #
+b11001001 )
+#35000
+1%
+#40000
+0%
+b1000111100000 $
+b1000111100000 *
+b110010001 #
+b110010001 )
+0&
+1(
+#45000
+1%
+#50000
+b1000111100000 !
+b1000111100000 +
+0%
+b1011110011101 $
+b1011110011101 *
+1&
+0(
+#55000
+1%
+#60000
+b0xxxxxxxx !
+b0xxxxxxxx +
+1"
+0%
+1(
+#65000
+1%
+#70000
+0%
+0'
+b101101011001 #
+b101101011001 )
+0(
+#75000
+1%
+#80000
+0%
+#85000
+1%
+#90000
+0%
+#95000
+1%
+#100000
